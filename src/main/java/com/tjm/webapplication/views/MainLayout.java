@@ -114,7 +114,7 @@ public class MainLayout extends AppLayout {
 
                 new MenuItemInfo("Temperatures", "lab la-hotjar", TemperaturesView.class), //
 
-                new MenuItemInfo("Run Hours", "la la-running", RunHoursView.class), //
+                new MenuItemInfo("Machine Run-time", "la la-running", RunHoursView.class), //
 
         };
     }
