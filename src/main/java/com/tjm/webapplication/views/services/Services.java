@@ -1,10 +1,12 @@
 package com.tjm.webapplication.views.services;
 
-public class Client {
+import java.util.Date;
+
+public class Services {
 
     private String machine;
     private String service;
-    private String date;
+    private Date date;
 
     public String getMachine() {
         return machine;
@@ -22,11 +24,11 @@ public class Client {
         this.service = client;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 }
